@@ -1,0 +1,8 @@
+williamcho-rss:
+
+  admin:
+    settings:
+      max_items_label: Max items in feed
+      max_items_help: How many discussions to include in the RSS feed at /rss.
+      summary_length_label: Summary length (characters)
+      summary_length_help: How many characters of each discussion's first post to include in the feed, after HTML tags are stripped.

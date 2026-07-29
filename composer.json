@@ -1,0 +1,30 @@
+{
+    "name": "williamcho/flarum-rss",
+    "description": "Publishes an RSS 2.0 feed of publicly visible discussions at /rss, with admin-configurable item count and summary length.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Cho"
+        }
+    ],
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WilliamCho\\Rss\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "RSS",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-rss",
+                "backgroundColor": "#f26522",
+                "color": "#fff"
+            }
+        }
+    }
+}
